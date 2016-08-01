@@ -2,7 +2,7 @@ title:             Physics in Motion
 email:             l.nguyen.paul@gmail.com
 description:
 baseurl:           "/physics-in-motion"
-url:               "https://lenpaul.github.io" # the base hostname & protocol for your site
+url:               "https://lenpaul.github.io" 
 twitter:           "paululele"
 github:            "lenpaul"
 
