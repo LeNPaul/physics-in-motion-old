@@ -4,20 +4,43 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h3 class="page-heading">Getting Started</h3>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.categories.Introduction %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
+        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+        <h1>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        </h1>
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <h3 class="page-heading">Mathematics Review</h3>
+  <ul class="post-list">
+    {% for post in site.categories.Mathematics-Review %}
+      <li>
+        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+        <h1>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h1>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h3 class="page-heading">Kinematics</h3>
+  <ul class="post-list">
+    {% for post in site.categories.Kinematics %}
+      <li>
+        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+        <h1>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h1>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h3 class="page-heading">Dynamics</h3>
 
 </div>

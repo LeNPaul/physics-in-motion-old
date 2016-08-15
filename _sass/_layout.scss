@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    //border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -172,7 +172,8 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    //font-size: 20px;
+    color: #555;
 }
 
 .post-list {
@@ -191,7 +192,7 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    //font-size: 24px;
 }
 
 
