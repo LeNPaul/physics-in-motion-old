@@ -1,8 +1,8 @@
 title:             Physics in Motion
 email:             l.nguyen.paul@gmail.com
 description:
-baseurl:           "/physics-in-motion"
-url:               "https://lenpaul.github.io"
+baseurl:           #"/physics-in-motion"
+url:               #"https://lenpaul.github.io"
 twitter:           "paululele"
 github:            "lenpaul"
 
