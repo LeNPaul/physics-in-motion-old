@@ -2,10 +2,7 @@
  * Site header
  */
 .site-header {
-    //border-top: 5px solid $grey-color-dark;
-    //border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -171,7 +168,16 @@
 .splash-page {
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 50vh;
+	height: 700px;
+}
+
+.spacing-unit p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 10px;
+  padding-bottom: 45px;
 }
 
 /**
