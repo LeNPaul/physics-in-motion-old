@@ -89,11 +89,10 @@
     }
 }
 
-
-
 /**
  * Site footer
  */
+
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
@@ -174,9 +173,25 @@
 */
 
 .splash-page {
-	background-size: cover;
-	background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 	height: 700px;
+}
+
+.splash-text {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  margin: auto;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 60px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .spacing-unit p {

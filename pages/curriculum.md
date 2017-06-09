@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum
-permalink: /curriculum/
+permalink: /pages/curriculum/
 ---
 
 <h3 class="page-heading">Kinematics</h3>

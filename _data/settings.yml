@@ -9,9 +9,11 @@ github:            "lenpaul"
 
 menu:
 - {name: 'Curriculum', file: '/curriculum/'}
+- {name: 'Resources', file: '/resources/'}
 - {name: 'About', file: '/about/'}
 - {name: 'Contact', file: '/contact/'}
 
 social:
 - {icon: 'twitter', link: 'https://twitter.com/paululele'}
+- {icon: 'github', link: 'https://github.com/lenpaul'}
 - {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
