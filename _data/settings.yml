@@ -1,0 +1,17 @@
+title:             Physics in Motion
+email:             l.nguyen.paul@gmail.com
+description:
+                   A free online resource for learning physics, whether you are a student learning physics in school, or an enthusiast looking to learn something new.
+baseurl:           #"/physics-in-motion"
+url:               #"https://lenpaul.github.io"
+twitter:           "paululele"
+github:            "lenpaul"
+
+menu:
+- {name: 'Curriculum', file: '/curriculum/'}
+- {name: 'About', file: '/about/'}
+- {name: 'Contact', file: '/contact/'}
+
+social:
+- {icon: 'twitter', link: 'https://twitter.com/paululele'}
+- {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
