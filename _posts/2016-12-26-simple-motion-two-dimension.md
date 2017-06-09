@@ -19,4 +19,28 @@ $$
   a_y (t) = -g
 $$
 
-## Circular Motion
+Where there is no acceleration along the x-axis, and //( g //) is the acceleration of the object towards the ground, as a result of gravity. Since we usually denote up as being positive, and down as being negative, //( g //) is negative.
+
+We can find the velocity functions by integrating the acceleration functions above:
+
+$$
+  v_x (t) = \int a_x (t) dt = {v_x0}
+$$
+
+$$
+  v_y (t) = \int a_u (t) dt = v_{y0} - g t
+$$
+
+Where //( v_{x0} //) and //( v_{y0} //) are the initial velocities in the x and y axes. As there is no acceleration along the x-axis, the velocity remains a constant, as expected. Since the y-axis does experience an acceleration due to the earth's gravity, the velocity does not remain constant, and in fact, increases in magnitude as time increases, as expected.
+
+We can find the position function by integrating the above velocities:
+
+$$
+  x(t) = \int v_x (t) dt = x_0 + v_{x0} t
+$$
+
+$$
+  y(t) = \int v_y (t) dt = y_0 + v_{y0} t - \frac{1}{2} g t^2
+$$
+
+Where //( x_0 //) and //( y_0 //) are the initial positions of the object along the x and y axes respectively.
