@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simple Forces"
-date: 2016-12-24
+date: 2016-12-22
 categories: Forces
 ---
 
@@ -48,3 +48,33 @@ $$
 $$
 
 The book is not accelerating in the vertical direction, since the net force is zero.
+
+### Tension
+
+Consider a lamp of mass \\( m \\) hanging from the ceiling by a massless rope. Gravity is pulling the lamp downwards with a force equal to the lamp's weight:
+
+$$
+  W = - m g
+$$
+
+Since the lamp is stationary, we know that the net force on the lamp must be zero, and that the rope must be pulling the lamp upwards with a force opposing the weight of the lamp:
+
+$$
+  F_{rope} = -W
+$$
+
+Here, we are taking the upwards direction, or the direction towards the ceiling, to be the negative direction. By Newton's third law, the lamp should be applying an equal but opposite force on the rope, and so the rope is being pulled downwards by:
+
+$$
+  F_{lamp} = W
+$$
+
+This force is the tension in the rope, and since we assumed that the rope is stiff and massless, the tension must be the same throughout:
+
+$$
+  T = F_{lamp} = W
+$$
+
+Since the ceiling is also pulling the rope upwards, and the pull of the ceiling must exactly equal the tension in the rope, since the total net force is zero. Again, by Newton's third law, the rope must there be applying an equal but opposite force on the ceiling, pulling the ceiling downwards with a force equal to the tension \\( T \\). Since \\( T = W \\), then the ceiling is experiencing a pull downwards equal to the weight of the lamp.
+
+More generally, ropes and strings provide a connection between two separate objects, and the tension on them is uniform through and applies to both objects on the two ends.

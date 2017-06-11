@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Newton's Laws"
-date: 2016-12-26
+date: 2016-12-24
 categories: Forces
 ---
 
