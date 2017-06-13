@@ -20,3 +20,31 @@ Where in the last step, \\( \vec{p} = m \vec{v} \\). This is a vector quantity k
 $$
   0 = \frac{d p_i}{dt} \rightarrow p_i = constant
 $$
+
+If there are no external force son the system altogether, then all the components of the momentum are conserved, which is simply Newton's first law of motion. Thus, momentum changes only when a force is applied. The in momentum is known as the impulse:
+
+$$
+  \vec{J} = \int^{t_f}_{t_i} \vec{F} dt = \int^{t_f}_{t_i} \frac{d \vec{p}}{dt} dt = \vec{p}_f - \vec{p}_i
+$$
+
+In the last step, the fundamental theorem of calculus was used. The impulse, or the change in momentum, depends on the time integral of the force over some duration. Therefore, the same impulse may results from applying a lot of force over a short period of time as when applying a little bit of force over a long period of time.
+
+The situation becomes more interesting when we consider more than a single body. Consider when two bodies, with masses \\( m_1 \\) and \\( m_2 \\), that exert the some force on each other, but otherwise have no forces applies to them. Writing Newton's second law we have:
+
+$$
+  \vec{F}_1 = \frac{d \vec{p}_1}{dt}
+$$
+
+$$
+  \vec{F}_2 = \frac{d \vec{p}_2}{dt}
+$$
+
+Where \\( \vec{p}_1 = m_1 \vec{v}_1 \\) is the momentum associated with the first particle, and \\( \vec{p}_2 = m_2 \vec{v}_2 \\) is the momentum associated with the second particle. Since we assumed that no external forces are prsent, then from Newton's third law we have that \\( \vec{F}_1 = - \vec{F}_2 \\). Adding the two equations we then find:
+
+$$
+  0 = \frac{d}{dt} ( \vec{p}_1 + \vec{p}_2 ) \rightarrow \vec{P}_{tot} = \vec{p}_1 + \vec{p}_2
+$$
+
+The total momentum of the system, which is the sum of the individual momenta, is conserved.
+
+This powerful conclusion can be extended to systems with arbitrary number of interacting bodies and no external forces, simply by repeating the above arguments with an arbitrary number of particles, \\( N \\).
