@@ -48,3 +48,49 @@ The motion is periodic with a period of \\( T = 2 \pi / \omega \\). To see this 
 $$
   x(t + T) = A \cos (\omega (t + T) + \phi)
 $$
+
+$$
+  x(t + T) = A ( \cos(\omega T) \cos(\omega t + \phi) - \sin(\omega T) \sin(\omega T + \phi) )
+$$
+
+$$
+  x(t + T) = A \cos(\omega t + \phi)
+$$
+
+$$
+  x(t + T) = x(t)
+$$
+
+The frequency is the inverse of the period \\( f = 1 / T \\) and hence we have a relation between the frequency and the angular frequency,
+
+$$
+  \omega = 2 \pi f = \frac{2 \pi}{T}
+$$
+
+Since we have the full solution for the position as a function of time, we can obtain all the other kinematical functions such as velocity and acceleration through differentiation,
+
+$$
+  v(t) = \frac{d x(t)}{d t} = - A \omega \sin(\omega t + \phi)
+$$
+
+$$
+  a(t) = \frac{d v(t)}{d t} = - A \omega^2 \cos(\omega t + \phi)
+$$
+
+Since the force is derived from a potential, it is a conservative force and thus the total energy is a conserved quantity. As usually, it is composed of kinetic energy and a potential energy,
+
+$$
+  K(t) = \frac{1}{2} m v(t)^2 = \frac{1}{2} m A^2 \omega^2 \sin^2 (\omega t + \phi)
+$$
+
+$$
+  U(t) = \frac{1}{2} k x(t)^2 = \frac{1}{2} k A^2 \cos^2 (\omega t + \phi)
+$$
+
+Each of these quantities varies with time, but their sum, which is the total energy, is a constant of the motion:
+
+$$
+  E_{tot} = K(t) + U(t) = \frac{1}{2} k A^2 = \frac{1}{2} m \omega^2 A^2
+$$
+
+This last equation is proved using the relation \\( \omega = \sqrt{k / m} \\) and the basic identity of trigonometry.
