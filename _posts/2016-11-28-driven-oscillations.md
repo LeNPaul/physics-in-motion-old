@@ -58,5 +58,17 @@ $$
 where \\( F_0 \\) is the amplitude of the external force, \\( \omega_{ext} \\) is the angular frequency, and \\( \phi_{ext} \\) is the phase. We can again write the equation of motion for the oscillator,
 
 $$
-  - k x(t) + F_0 \cos( \omega_{ext} )
+  - k x(t) + F_0 \cos( \omega_{ext} t ) = m \frac{d^2 x(t)}{d t^2}
 $$
+
+As can be seen by direct substitution, there is one particularly simple solution to this equation:
+
+$$
+  x(t) = \frac{F_0}{m} \left( \frac{1}{\omega^2 - \omega^2_{ext}} \right) \cos ( \omega_{ext} t )
+$$
+
+The presence of dissipative force will generally dampen any other motion of the system and the solution above represents the asymptotic motion of the system after a long time. As can be expected intuitively, the system simply follows the periodicity of the driving force. But, this solution also exhibits the importance of driving the system at the right frequency. Notice that the amplitude of the oscillations grows as the frequency of the external driving force comes close to the natural frequency of the oscillator, \\( \omega_{ext} = \rightarrow \omega = \sqrt{k / m} \\). Away from the natural frequency the oscillator is driven inefficiently with a reduce amplitude.
+
+This phenomenon of driving a system in its natural frequency is known as resonance. The rapid growth of the amplitude as the driving frequency approaches the natural frequency is the hallmark of resonance. You may be troubled by the divergence of the amplitude with \\( \omega_{ext} \rightarrow \omega \\). This divergence is present because we neglected the important effects of dissipative forces present in physical systems. When those are accounted for, this divergence is softened. Nevertheless, it is still true that the amplitude is largest when the frequency of the external driving force is on resonance with the natural frequency of the system, \\( \omega_{ext} \rightarrow \omega \\)
+
+The phenomenon of resonance is used in many applications. For example, radio receivers can be thought of as an oscillator driven by the periodic force associated with radio waves in the air. Most of the waves are out of resonance with the receiver and cannot be heard. When you tune your radio to your favourite radio station you effectively tune the natural frequency of your radio receiver to that station's frequency. Hence, you amplify the receiver's response to the ever-present radio waves associated with that station.
