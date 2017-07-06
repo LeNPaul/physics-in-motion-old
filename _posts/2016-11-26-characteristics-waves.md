@@ -36,3 +36,23 @@ where \\( f(x - v_w t) \\) is any continuous function of the single variable \\(
 $$
   v_w = \sqrt{t / \mu}
 $$
+
+The first function, \\( f( x - v_w t ) \\) represents waves traveling in the positive x-direction. Notice that is we simultaneously translate time by some amount \\( \Delta t \\) and distance by an amount \\( \Delta x = v_w \Delta t \\) then \\( f((x + \Delta x) - v_w (t + \Delta t)) = f(x - v_w t) \\). Similarly, the function \\( g(x + v_w t) \\) represents waves traveling in the negative x-direction. Therefore, a general wave in one dimension is propagating through the medium in either one way or the other with velocity \\( v_w \\). This is the physical importance of the constant \\( v_w \\). The velocity of propagation of waves through the medium depends on the properties of the medium.
+
+What is vibrating also depends on the medium. In the case of a stretched string for example, the displacement of the string is vibrating about its stretched position. In water waves, the height of the water is vibrating. Notice that in both of these cases, the vibrations are perpendicular to the direction of the motion of the wave itself. Such waves are known as transverse waves, since the vibrations at every point in the medium are transverse to the direction of the wave's motion. Importantly, we still call it a one-dimensional wave because the propagation of the wave is confined to one dimension. Its vibration, however, is happening in a transverse medium. For example, a water wave in a narrow canal can be described as moving in the horizontal direction, but the water's displacement is in the vertical direction.
+
+In contrast, the sound waves in a material are associated with compression and rarefaction of the material's density. The vibration in this case is along the direction of motion of the wave itself.
+
+Such waves are known as longitudinal waves. The vibrations induced in a long spring are another example of longitudinal waves. Earthquakes produce different type of waves, but the primary ones (p-waves) and least destructive are longitudinal waves that travel fastest and therefore are first to arrive. These correspond to compression and rarefactions in the earth's density.
+
+### Sound
+
+Sound waves are the compression and rarefaction of the local density of materials and as such they are longitudinal waves. You are likely familiar with sound as it travels through air, a gas. As you might know, for a fixed temperature, the density of a gas is related to its pressure. So the compression and rarefaction of density associated with sound waves in air result in changes of pressure, which is what your ear drum senses as sound. The speed of sound in dry air at \\( 20^{\circ} \\) is
+
+$$
+  v_s = 343 m/s
+$$
+
+Note the particular way I quoted this velocity as depending on the temperature of the air as well as its humidity. This is an example of the very general point mention above, namely that the speed of wave in a medium depend son the properties of the medium. In the case of gases, the general expression for the speed of sound is given by an expression similar to the speed of waves in a string, with the string's tension replaced by the gas' average pressure.
+
+A gas is not he only medium to support sound waves. A liquid or a solid can also serve as media where density fluctuations result in the propagation of sound waves. Considering the very different average densities and pressures found in liquids and solids, it is no surprise that sound waves in liquids and solids propagate at very different speeds as compared to sound speed in air. The dependence of the speed of the properties of the medium can actually be of use in learning about the interior of maters. For example, p-waves, which are a type of sound-wave produced by an earthquake, are used to study the Earth's composition.
