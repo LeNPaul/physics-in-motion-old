@@ -56,3 +56,21 @@ $$
 Note the particular way I quoted this velocity as depending on the temperature of the air as well as its humidity. This is an example of the very general point mention above, namely that the speed of wave in a medium depend son the properties of the medium. In the case of gases, the general expression for the speed of sound is given by an expression similar to the speed of waves in a string, with the string's tension replaced by the gas' average pressure.
 
 A gas is not he only medium to support sound waves. A liquid or a solid can also serve as media where density fluctuations result in the propagation of sound waves. Considering the very different average densities and pressures found in liquids and solids, it is no surprise that sound waves in liquids and solids propagate at very different speeds as compared to sound speed in air. The dependence of the speed of the properties of the medium can actually be of use in learning about the interior of maters. For example, p-waves, which are a type of sound-wave produced by an earthquake, are used to study the Earth's composition.
+
+### Light
+
+One of the triumphs of \\( 19^{th} \\) century physics is the realization by James C. Maxwell that his theory of electric and magnetic fields predicts the existence of light. He worked out the speed of waves in the electromagnetic field and found to his amazement that it is the speed of light in a vacuum,
+
+$$
+  c = 299,792,458 // m/s
+$$
+
+This helped identifying light as an electromagnetic wave. Light is a transverse wave, but this fact is by no means obvious. It is the oscillations of magnetic and electric fields in a plane perpendicular to the direction of motion. But, unlike other waves where the medium is manifest (water for water waves, air for sound waves, etc.), light requires no medium to propagate. The absence of any clear mechanical medium associated with light has perplexed \\( 19^{th} \\) century physicists who attempted to introduce such a medium, known as the ether. These attempts, and the ether, were abandoned with the advent of Einstein's special theory of relativity.
+
+When light travels through a medium other than a vacuum, it slows down. The ratio of its velocity in vacuum, to its velocity in the medium is known as the index of refraction
+
+$$
+  n = \frac{c}{v}
+$$
+
+Where \\( v \\) is the light velocity in the medium. The index of refraction depends on the properties of the medium as well as the wavelength of light.
