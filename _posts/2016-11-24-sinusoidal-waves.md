@@ -48,5 +48,21 @@ The velocity of a sinusoidal wave is its frequency times its wavelength.
 The power of a wave, which is the rate that energy is transported by the wave, has units of \\( kg m^2 / s^2 \\). For a wave on a string, there are four independent quantities that carry units, the mass density \\( \mu \\) with units of \\( kg/m \\), the wave speed \\( v_w \\) with units of \\( m/s \\), the amplitude of the wave \\( A \\) with units of \\( m \\), and the angular frequency \\( \omega \\) with units of \\( s^{-1} \\). We expect the power to be delivered at the same rate as the wave is propagating, hence \\( P \propto v_w \\). Also, on dimensional grounds, the power must involved one power of the mass density \\( P \propto \mu \\) because of the units associated with mass. Therefore, against on dimensional grounds we can conclude that the power in a wave must be,
 
 $$
+  P_{string} \propto \mu A^2 \omega^2 v_w
+$$
+
+Where the constant of proportionality turns out to be \\( 1/2 \\). Very generally, the power in waves increases quadratically with the wave's amplitude and linearly with its speed,
 
 $$
+  P_{wave} \propto A^2 v_w
+$$
+
+This result holds in general for waves whether they are sinusoidal or not.
+
+As a wave propagates away from the source it spreads out and diminishes in amplitude. Instruments that detect the waves are only sensitive to the area of the wave front covered by the detector. Therefore, it proves useful to define the intensity of the wave, which is its power divided by the area over which the power is distributed. For example, the intensity of a uniform spherical wave at a distance \\( r \\) from a source of power \\( P \\) is given by,
+
+$$
+  I = \frac{P}{4 \pi r^2}
+$$
+
+This relation between the intensity measured, the power emitted, and the distance to the source is of great importance in many fields of science and technology. For example, the intensity of star light or other astronomical objects is used by astronomers to infer the distance to other stars if their power output is known or vice versa.
