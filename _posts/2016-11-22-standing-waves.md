@@ -1,76 +1,122 @@
 ---
 layout: post
-title:  "Standing Waves"
-date: 2016-11-22
+title:  "Interference"
+date: 2016-11-20
 categories: Waves
 ---
 
-As we saw above, general sinusoidal waves are characterized by their wavelength, \\( \lambda \\), and frequency, \\( f \\). The only restriction on these quantities is that their product must equal the velocity. Further restrictions arise when the medium is forbidden from vibrating at particular points. For concreteness, let us consider a long string of length \\( l \\) whose ends are clamped at two points \\( x = 0 \\) and \\( x = l \\). The displacement, \\( y(x,t) \\), must then satisfy the following conditions,
+Let us now consider what happens when waves of the same frequency, but a different source, arrive at the same location. If the first wave travelled a distance \\( d_1 \\) from its source, and the second wave travelled a distance \\( d_2 \\), then we have,
 
 $$
-  y(0,t) = 0
-$$
-
-$$
-  y(l,t) = 0
-$$
-
-The string cannot be displaced at its ends at any time. Clearly, this cannot be satisfied by a traveling wave, because even if it vanishes at a point at a given moment, it will not vanish there a moment later. But, what if we consider two waves traveling in opposite directions? The general expression is,
-
-$$
-  y (x,t) = A \sin k (x - v_w t) + B \sin k (x + v_w t)
-$$
-
-This sort of wave, which is the superposition of a wave moving to the right and a wave moving to the left, can certainly satisfy the first condition,
-
-$$
-  y (0,t) = A \sin k (-v_w t) + B \sin k (+ v_w t) = 0
+  y(x,t) = y_1 (x,t) + y_2 (x,t)
 $$
 
 $$
-  A = B
-$$
-
-With a simple trigonometric identity we can now write the wave as follows,
-
-$$
-  y (x,t) = 2 A \cos (\omega t) \sin (k x)
-$$
-
-The string is also clamped at \\( x = l \\) and so we must impose the second condition, namely, \\( y (l,t) = 0 \\) at all times,
-
-$$
-  y (l,t) = 2 A \cos (\omega t) \sin (k l) = 0
+  y(x,t) = A \sin (k d_1 - \omega t + \phi_{01}) + A \sin (k d_2 - \omega t + \phi_{02})
 $$
 
 $$
-  k l = n \pi, n = 1,2,3...
+  y(x,t) = A \sin (\phi_1 - \omega t) + A \sin (\phi_2 - \omega t)
 $$
 
-Where \\( n \\) is a positive integer. This condition results because for the function to vanish at all times, the argument of the sine function must vanish at \\( x = l \\). This can be satisfied if it is an integer multiple of \\( \pi \\). We thus arrive at an important condition on the wavelengths supported by the string clamped at both ends,
+Where \\( \phi_{01} \\) and \\( \phi_{02} \\) are the initial phases of the two waves, and
 
 $$
-  \lambda_n = \frac{2 l}{n}
+  \phi_1 = k d_1 + \phi_{01}
 $$
 
 $$
-  n = 1,2,3...
+  \phi_2 = k d_2 + \phi_{02}
 $$
 
-The longest wavelength supported is twice the string's length, \\( \lambda = 2 l \\), corresponding to \\( n = 1 \\). It is known as the fundamental. Shorter wavelength are also supported, corresponding to \\( n = 2,3... \\) and are known as harmonics. The waveform satisfying all the boundary conditions is simply.
+can be thought of as the phases of the waves at this particular location. Using the properties of the sine function, you can convince yourself that the oscillations of the two components in the equations above exactly cancel each other if they are out of phase. This is known as perfectly destructive interference and requires,
 
 $$
-  y(x,t) = 2 A \cos (\omega t) \sin(2 \pi x / \lambda_n)
+  \Delta \phi = \phi_1 - \phi_2 = (m + 1/2) \dot 2 \pi
 $$
 
-Remarkably, even though it was formed from the combination of two traveling waves, the resulting wave is a standing wave. It has a spatial profile of \\( \sin (2 \pi x / \lambda_n) \\) with an amplitude that oscillates in time as \\( 2 A \cos(\omega t) \\).
-
-If you are familiar with any musical string instrument, then you have undoubtedly encountered the phenomenon of standing waves. The different notes on the musical scale are produced by plicking on a string of a well defined length. On a violin, or a guitar, you can created a string of a particular length by clamping down on the string with your finger at a particular place. One typically excites the fundamental vibration, \\( \lambda = 2 l \\). The thickness and tension in the string determine the speed of waves in the string, and hence the vibration frequency,
+Where \\( m = 0, \pm 2, \pm 2,... \\) is an integer. On the other hand, the amplitudes of the two components add coherently to yield perfectly constructive interference if the oscillations are exactly in phase,
 
 $$
-  \omega = v_w k = \frac{2 \pi v_w}{\lambda} = \frac{2 \pi v_w}{2 l} \rightarrow f = \frac{v_w}{2 l}
+  \Delta \phi = \phi_1 - \phi_2 = 2 m \pi
 $$
 
-This is the frequency of the note produced. Alongside the fundamental, the higher harmonics are also excited, \\( f = v_w / l, 3 v_w/2 l,... \\). The contribution of the higher harmonics is essential in creating a full-bodied sound. The same note, produced by two instruments, sounds differently because the contribution of the higher harmonics is different between the two instruments. There are also ways to clamp the string so as to produce one of the higher harmonics directly without exciting the fundamental. The notes produced in this way are known as flageolets and are much pure since there are fewer harmonics contributing.
+where again, \\( m = 0, \pm 2, \pm 2,... \\) is an integer. More generally, the interference results in an amplitude that depends on the phase shift. Using a trigonometric identity for expression the sum of two sine functions as the product of two others, the wave form can be recast into,
 
-Finally, I would like the briefly mention a phenomenon known as sympathetic resonance. We have previously discussed a harmonic oscillator with natural frequency \\( \omega = \sqrt{k/m} \\) driven by an external force with frequency \\( \omega_{ext} \\). We saw that the best way to drive the oscillator is to do so on resonance, that is by tuning the external force to the same frequency, \\( \omega_{ext} \rightarrow \omega \\). Now consider several close by strings, like the strings of a guitar, each of them vibrating at a certain frequency. If the fundamental (or harmonics) of one of the strings happens to coincide with the fundamental (or harmonics) of a second string then it is possible to excite the second by simply plucking the first. The sound waves produced by the first string act as an external force driving the second string on a resonance in its natural frequencies, the fundamental or harmonics. This has the very pleasant effect of creating a very rich sound and is called sympathetic resonance.
+$$
+  y(x,t) = A \sin (\phi_1 - \omega t) + A \sin (\phi_2 - \omega t)
+$$
+
+$$
+  y(x,t) = 2 A \cos \left( \frac{\Delta \phi}{2}  \right) \times \sin \left( k \left( \frac{d_1 + d_2}{2} \right) + \left( \frac{\phi_{01} + \phi_{02}}{2} \right) - \omega t \right)
+$$
+
+When the variations in the average distance, \\( (d_1 + d_2) / 2 \\) are small compared with the wavelength, the amplitude of the wave can be thought of as the coefficient of the oscillating piece, namely,
+
+$$
+  Amplitude = \left| 2 A \cos \left( \frac{\Delta \phi}{2} \right) \right|
+$$
+
+In many instances the initial phase of the two waves are equal since they emerge from the same source. In those cases, the conditions for interference can be stated as requirements on the path-length difference. From the relations between the phases and distance travelled, we see that
+
+$$
+  \Delta d = d_1 - d_2 = m \lambda
+$$
+
+(constructive interference)
+
+$$
+  \Delta d = d_1 - d_2 = (m + 1/2) \lambda
+$$
+
+(destructive interference)
+
+Here the relation between the wavenumber and the wavelength, \\( k = 2 \pi / \lambda \\)
+
+### Young's Double Slit Experiment
+
+One of the vexing questions of classical physics was whether light is a wave of a particle. The beautiful experiment by Young seemed to have settled this question in favour of waves. Young considered a single light source impinging on a screen with two slits separated by a distance \\( D \\). A second screen is placed a distance \\( L \\) behind the first. Using simple trigonometry, the distance of the upper light ray to a point on the second screen is given by,
+
+$$
+  d_1 = \frac{L}{\cos \theta}
+$$
+
+Where the \\( \theta \\) is the angle of the light with the horizontal. Geometry then dictates that the distance of the lower light ray to that same point on the screen is,
+
+$$
+  d_2 = \sqrt{L^2 + (D + L \tan \theta)^2} \approx \frac{L}{\cos \theta} + D \tan \theta
+$$
+
+Where the approximation holds when the distnace to the screen is much larger than the slits' separation, \\( L >> D \\). The difference in distance between the two rays, which is the relevant quantity for interference, is then
+
+$$
+  \Delta d = d_2 - d_1 \approx D \tan \theta
+$$
+
+The vertical distance along the screen is usually also much smaller than the distance \\( L \\) and so the angle \\( \theta \\) is small, \\( \theta << 1 \\) and so,
+
+$$
+  \Delta d \approx D \theta \approx D \frac{y}{L}
+$$
+
+So far this is just geometry. But, now comes the crucial observation. If light is really a wave, then we expect to see bright fringes when the path difference satisfies the condition for constructive interference,
+
+$$
+  \theta_m = m \frac{\lambda}{D}
+$$
+
+$$
+  y_m = m \frac{\lambda L}{D}
+$$
+
+Similarly, when the path difference satisfies the condition for destructive interference, we expect to see dark fringes
+
+$$
+  \theta_m = \left( \frac{1}{2} + m \right) \frac{\lambda}{D}
+$$
+
+$$
+  y_m = \left( \frac{1}{2} + m \right) \frac{\lambda L}{D}
+$$
+
+This pattern of bright and dark fringes is precisely what was observed by Young. This experiment has conclusively determined the wave-like nature of light. "Light as a wave" stood as a paradigm for about a century until Einstein demonstrated that the photoelectric effect can be understood by assuming light to be a particle nevertheless. The clear paradox that emerged from the two conflicting views of the nature of light foreshadowed the advent of quantum mechanics.
