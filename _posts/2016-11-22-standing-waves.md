@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Interference"
-date: 2016-11-20
+date: 2016-11-22
 categories: Waves
 ---
 
