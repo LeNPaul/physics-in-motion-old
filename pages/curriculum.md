@@ -87,3 +87,13 @@ permalink: /pages/curriculum/
     </li>
   {% endfor %}
 </ul>
+
+<ul class="post-list">
+  {% for post in site.categories.Mathematics %}
+    <li>
+      <h1>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h1>
+    </li>
+  {% endfor %}
+</ul>
