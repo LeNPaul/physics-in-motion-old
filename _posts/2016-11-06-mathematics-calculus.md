@@ -1,76 +1,22 @@
 ---
 layout: post
-title:  "Trigonometry"
-date: 2016-11-08
+title:  "Calculus"
+date: 2016-11-06
 categories: Mathematics
 ---
 
-Throughout this section, we will use \\( \theta \\) and \\( \phi \\) to represent angles in general. Angles are measured in radians unless otherwise stated.
+### Functions
 
-The fundamental relation of trigonometry, which is another way of stating Pythagorus' Theorem is,
-
-$$
-  \cos^2 \theta + \sin^2 \theta = 1
-$$
-
-A few important relations of cosines and sines are,
-
-Periodicity:
+Functions are a mapping from some sets of numbers to another set of numbers. This simplest type of functions are ones that take a single variable, like \\( f(x) \\). This function, \\( f(x) \\), takes as argument a single number and returns a single number. For example,
 
 $$
-  \cos(\theta \pm 2 \pi) = \cos \theta
+  f(x) = \frac{1}{2} k x^2
 $$
 
-$$
-  \sin(\theta \pm 2 \pi) = \sin \theta
-$$
+Where \\( k \\) is some constant. The independent variable \\( x \\) may have many different meanings and symbolic representations. Similarly, the function \\( f(x) \\) my be represented by many other symbols. But, the meaning is always the same: you give it some number \\( x \\) and it will give you some other number \\( f(x) \\). A few examples are,
 
-Symmetry:
+Some function of time \\( t \\)
 
 $$
-  \cos(-\theta) = \cos \theta
+  f(t)
 $$
-
-$$
-  \cos(\pi/2 - \theta) = \sin \theta
-$$
-
-$$
-  \sin(-\theta) = - \sin \theta
-$$
-
-$$
-  \sin(\pi/2 - \theta) = \cos \theta
-$$
-
-The angle addition formulas state,
-
-$$
-  \cos(\theta_1 + \theta_2) = \cos(\theta_1)\cos(\theta_2) - \sin(\theta_1)\sin(\theta_2)
-$$
-
-$$
-  \sin(\theta_1 + \theta_2) = \sin(\theta_1)\cos(\theta_2) + \cos(\theta_1)\sin(\theta_2)
-$$
-
-From these two formulas several other formulas follow. First are the double angle formula you are probably familiar with
-
-$$
-  \cos 2 \theta = \cos^2 \theta - \sin^2 \theta
-$$
-
-$$
-  \sin 2 \theta = 2 \sin\theta \cos \theta
-$$
-
-Also, by taking linear combinations of the above, you can arrive at the following formulas for the additions of sines and cosine functions (useful when discussing the interference of waves).
-
-$$
-  \sin \phi_1 + \sin \phi_2 = 2 \sin \left( \frac{\phi_1 + \phi_2}{2} \right) \cos \left( \frac{\phi_1 - \phi_2}{2} \right)
-$$
-
-$$
-  \cos \phi_1 + \cos \phi_2 = 2 \cos \left( \frac{\phi_1 + \phi_2}{2} \right) \cos \left( \frac{\phi_1 - \phi_2}{2} \right)
-$$
-
-Any other formula can be obtained with some of the defining relations of cosines and sines.
