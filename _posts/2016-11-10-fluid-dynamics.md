@@ -1,76 +1,58 @@
 ---
 layout: post
-title:  "Trigonometry"
-date: 2016-11-08
-categories: Mathematics
+title:  "Fluid Dynamics"
+date: 2016-11-10
+categories: Fluids
 ---
 
-Throughout this section, we will use \\( \theta \\) and \\( \phi \\) to represent angles in general. Angles are measured in radians unless otherwise stated.
-
-The fundamental relation of trigonometry, which is another way of stating Pythagorus' Theorem is,
+There are many aspects of fluid dynamics that can be understood by simply applying the notions of particle mechanics such as energy, forces, and work. For incompressible fluids in particular, there is a simple relation between the pressure on the fluid, its height, and its velocity. Let us consider a small amount of mass entering a tube on one end and exiting on the other. The two ends are not necessarily at the same height, nor do they necessarily have the same area. The work done on the fluid b the external pressure as it enters is
 
 $$
-  \cos^2 \theta + \sin^2 \theta = 1
+  W_1 = A_1 p_1 dx_1
 $$
 
-A few important relations of cosines and sines are,
-
-Periodicity:
+Where \\( A_1 \\) is the area of the entrance, \\( p_1 \\) is the inward pressure, and \\( d x_1 \\) is the distance the fluid was pushed through by the pressure. Similarly, the work done by the external pressure upon exit is,
 
 $$
-  \cos(\theta \pm 2 \pi) = \cos \theta
+  W_2 = - A_2 p_2 d x_2
 $$
 
-$$
-  \sin(\theta \pm 2 \pi) = \sin \theta
-$$
-
-Symmetry:
+Where the minus sign accounts for the opposite direction of the velocity (outwards) as compared with the pressure (inwards). The total work done on the fluid is then,
 
 $$
-  \cos(-\theta) = \cos \theta
+  W_{ext} = W_1 + W_2 = A_1 p_1 d x_1 - A_2 p_2 d x_2
 $$
 
 $$
-  \cos(\pi/2 - \theta) = \sin \theta
+  W_{ext} = (p_1 - p_2) V
+$$
+
+Conservation of volume flow rate implies that over the same time the volume flowing inwards in equal to the volume flowing outwards and thus \\( A_1 d x_2 = A_2 d x_2 = V \\). As this work is done, there are changes in the fluid's kinetic and potential energies. These changes are,
+
+$$
+  \Delta K = \frac{1}{2} m v^2_2 - \frac{1}{2} m v_1^2,
 $$
 
 $$
-  \sin(-\theta) = - \sin \theta
+  \Delta U = m g h_2 - m g h_1
 $$
 
-$$
-  \sin(\pi/2 - \theta) = \cos \theta
-$$
-
-The angle addition formulas state,
+The relation between the external work done and the changes in kinetic and potential energy informs us that,
 
 $$
-  \cos(\theta_1 + \theta_2) = \cos(\theta_1)\cos(\theta_2) - \sin(\theta_1)\sin(\theta_2)
+  W_{ext} = \Delta K + \Delta U \rightarrow (p_1 - p_2) V = \frac{1}{2} m (v^2_2 - v^2_1) + mg (h_2 - h_1)
 $$
 
-$$
-  \sin(\theta_1 + \theta_2) = \sin(\theta_1)\cos(\theta_2) + \cos(\theta_1)\sin(\theta_2)
-$$
-
-From these two formulas several other formulas follow. First are the double angle formula you are probably familiar with
+Dividing through by the volume and rearranging, we arrive at a relation among the pressure, velocity, and height upon entrance and exit,
 
 $$
-  \cos 2 \theta = \cos^2 \theta - \sin^2 \theta
+  p_1 + \frac{1}{2} \rho_l v^2_1 + \rho_l g h_1 = p_2 + \frac{1}{2} \rho_l v^2_2 + \rho_l g h_2
 $$
 
-$$
-  \sin 2 \theta = 2 \sin\theta \cos \theta
-$$
-
-Also, by taking linear combinations of the above, you can arrive at the following formulas for the additions of sines and cosine functions (useful when discussing the interference of waves).
+In other words, the quantity on both sides is unchanged throughout the motion,
 
 $$
-  \sin \phi_1 + \sin \phi_2 = 2 \sin \left( \frac{\phi_1 + \phi_2}{2} \right) \cos \left( \frac{\phi_1 - \phi_2}{2} \right)
+  p + \frac{1}{2} \rho_l v^2 + \rho_l g h = constant
 $$
 
-$$
-  \cos \phi_1 + \cos \phi_2 = 2 \cos \left( \frac{\phi_1 + \phi_2}{2} \right) \cos \left( \frac{\phi_1 - \phi_2}{2} \right)
-$$
-
-Any other formula can be obtained with some of the defining relations of cosines and sines.
+This relation is known as Bernoulli's equation.
