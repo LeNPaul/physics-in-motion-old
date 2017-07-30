@@ -19,7 +19,7 @@ $$
   T \sin (\theta(t)) = - m \frac{d^2 (l \sin(\theta(t)))}{d t^2}
 $$
 
-where the minus sign comes about because the positive angular displacements where chosen to correspond to negative horizontal displacements from the vertical. When the angular displacement is small, \\( | \theta(t) | \approx 0  \\), we can use the approximations \\( \sin(\theta(t)) \approx \theta(t) \\) and \\( \cos(\theta(t)) \approx 1 \\). Then, using the results for both the vertical and horizontal components, we obtain the important relation,
+where the minus sign comes about because the positive angular displacements where chosen to correspond to negative horizontal displacements from the vertical. When the angular displacement is small, \\( \| \theta(t) \| \approx 0  \\), we can use the approximations \\( \sin(\theta(t)) \approx \theta(t) \\) and \\( \cos(\theta(t)) \approx 1 \\). Then, using the results for both the vertical and horizontal components, we obtain the important relation,
 
 $$
   \frac{d^2 \theta(t)}{d t^2} = - \frac{g \theta(t)}{l}

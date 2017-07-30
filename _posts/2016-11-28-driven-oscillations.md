@@ -45,7 +45,7 @@ $$
   x(t) = x_0 + A \cos( \omega t + \phi )
 $$
 
-This is the same behavior as usual as far as the oscillations are concerned, but the displacement suffers a constant elongation, \\( x_0 = m g / k )\\. This is as it should be, the gravitational pull downwards is causing the spring to adopt a new equilibrium length, which is longer by and amount \\( x_0 \\) as compared with the horizontal length of the spring as rest.
+This is the same behavior as usual as far as the oscillations are concerned, but the displacement suffers a constant elongation, \\( x_0 = m g / k \\). This is as it should be, the gravitational pull downwards is causing the spring to adopt a new equilibrium length, which is longer by and amount \\( x_0 \\) as compared with the horizontal length of the spring as rest.
 
 ### Periodic External Forces - Resonance Phenomena
 

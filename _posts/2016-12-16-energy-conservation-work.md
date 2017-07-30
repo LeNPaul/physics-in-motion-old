@@ -27,19 +27,19 @@ Where \\( m \\) is the mass of the body, and \\( v_i \\) and \\( v_f \\) are the
 The notion of work can be directly related to the forces acting on a body. Work can also be defined as the time integral over the force acting on a body in the direction of the body's velocity,
 
 $$
-  W = \int^{t_f}_{t_i} \vec{F} \dot \vec{v} dt
+  W = \int^{t_f}_{t_i} \vec{F} \cdot \vec{v} dt
 $$
 
-Where the integral is over the total force acting on the body at every point along its motion from the initial moment \\( t_i \\) to the final moment \\( t_f \\). The dot product, \\( \vec{F} \dot \vec{v} \\) is defined as:
+Where the integral is over the total force acting on the body at every point along its motion from the initial moment \\( t_i \\) to the final moment \\( t_f \\). The dot product, \\( \vec{F} \cdot \vec{v} \\) is defined as:
 
 $$
-  \vec{F} \dot \vec{v} = |F||v| \cos \theta_{Fv}
+  \vec{F} \cdot \vec{v} = |F||v| \cos \theta_{Fv}
 $$
 
 where \\( |F| \\) and \\( |v| \\) are the magnitudes of the force and velocity, respectively, and \\( \theta_{Fv} \\) is the angle between these two vectors. We can see that these two definitions of work above are equivalent using Newton's second law:
 
 $$
-  W = \int^{t_f}_{t_i} \vec{F} \dot \vec{v} dt = \int^{t_f}_{t_i} (m \vec{a}) \dot \vec{v} dt = m \int^{t_f}_{t_i} \frac{d \vec{v}}{dt} \dot \vec{v} dt
+  W = \int^{t_f}_{t_i} \vec{F}  \vec{v} dt = \int^{t_f}_{t_i} (m \vec{a}) \cdot \vec{v} dt = m \int^{t_f}_{t_i} \frac{d \vec{v}}{dt} \cdot \vec{v} dt
 $$
 
 $$
@@ -55,7 +55,7 @@ In the second line above, the chain rule was used, will in the third line, the f
 Another way to understand work, which is closely related to the integral definition, but without reference to the velocity of the body:
 
 $$
-  W = \int^{\vec{x}_f}_{\vec{x}_i} \vec{F} \dot d \vec{x}
+  W = \int^{\vec{x}_f}_{\vec{x}_i} \vec{F} \cdot d \vec{x}
 $$
 
 Where \\( \vec{x}_i \\) and \\( \vec{x}_f \\) are the initial and final positions of the body, respectively. You can prove that this is an equivalent definition to the previous definitions by using the relation \\( \vec{v} = d \vec{x} / dt \\), and the chain rule of calculus.
