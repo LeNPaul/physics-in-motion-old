@@ -182,8 +182,8 @@
 .splash-text {
   position: absolute;
   top: 300px;
-  left: 30%;
-  width: 40%;
+  left: 22.5%;
+  width: 50%;
   margin: auto;
   font-weight: 100;
   font-size: 30px;
@@ -193,6 +193,12 @@
   color: white;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.7);
+}
+@include media-query($on-palm){
+  .splash-text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
 }
 
 .spacing-unit p {
