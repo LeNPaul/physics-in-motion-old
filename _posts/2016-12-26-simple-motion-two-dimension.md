@@ -44,3 +44,20 @@ $$
 $$
 
 where \\( x_0 \\) and \\( y_0 \\) are the initial positions of the object along the x and y axes respectively.
+
+
+## Motion in a Circle
+
+It is possible to describe the motion of a body in circular motion with constant speed, using the following equation:
+
+$$
+  \vec{r}(t) = ( R \cos(2 \pi t / T), R \sin (2 \pi t / T) ),
+$$
+
+where \\( R \\) is the radius of the circle, and \\( T \\) is the period of motion. By finding the derivative of this function, we obtain the velocity:
+
+$$
+  \vec{v}(t) = ( -V \sin(2 \pi t/ T), V \cos(2 \pi t / T) ),
+$$
+
+where \\( V = 2 \pi R / T \\), as can be determined by geometry. 
