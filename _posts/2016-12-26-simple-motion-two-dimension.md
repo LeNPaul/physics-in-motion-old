@@ -60,4 +60,24 @@ $$
   \vec{v}(t) = ( -V \sin(2 \pi t/ T), V \cos(2 \pi t / T) ),
 $$
 
-where \\( V = 2 \pi R / T \\), as can be determined by geometry. 
+where \\( V = 2 \pi R / T \\), as can be determined by geometry. Note that the velocity vector is perpendicular to the position vector everywhere along the path. In addition, the magnitude, or speed, of this vector is constant:
+
+$$
+  |\vec{v}(t)| = \sqrt{V^2 \sin^2 (2 \pi t / T) + V^2 \cos^2(2 \pi t /T)} = V,
+$$
+
+The last step in the above equation used a trigonometric identity to simplify the equation.
+
+By differentiating the velocity function, we can find the acceleration of the particle:
+
+$$
+  \vec{a}(t) = ( -a \cos(2 \pi t / T ), (-a \sin(2 \pi t / T)) ),
+$$
+
+with \\( a = 2 \pi V / T \\). The magnitude of the acceleration is also constant, and is equal to \\( a \\). The acceleration is always pointing towards the centre of the circle, perpendicular to the velocity vector, which is always tangential to the circle. By considering the definition of \\( V \\) and \\( a \\), we can deduce the following relationship:
+
+$$
+  a = \frac{V^2}{R}.
+$$
+
+This is known as centripetal acceleration. It is always pointing towards the center of the circle, and its magnitude is given by the above equation. It is present when a body follows a circular path, since this acceleration is responsible for changing the direction of the velocity along the path.
