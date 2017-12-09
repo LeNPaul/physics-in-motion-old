@@ -71,10 +71,10 @@ The last step in the above equation used a trigonometric identity to simplify th
 By differentiating the velocity function, we can find the acceleration of the particle:
 
 $$
-  \vec{a}(t) = ( -a \cos(2 \pi t / T ), (-a \sin(2 \pi t / T)) ),
+  \vec{a}(t) = ( -a \cos(2 \pi t / T ), -a \sin(2 \pi t / T) ),
 $$
 
-with \\( a = 2 \pi V / T \\). The magnitude of the acceleration is also constant, and is equal to \\( a \\). The acceleration is always pointing towards the centre of the circle, perpendicular to the velocity vector, which is always tangential to the circle. By considering the definition of \\( V \\) and \\( a \\), we can deduce the following relationship:
+where \\( a = 2 \pi V / T \\). The magnitude of the acceleration is also constant, and is equal to \\( a \\). The acceleration is always pointing towards the centre of the circle, perpendicular to the velocity vector, which is always tangential to the circle. By considering the definition of \\( V \\) and \\( a \\), we can deduce the following relationship:
 
 $$
   a = \frac{V^2}{R}.
