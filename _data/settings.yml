@@ -7,6 +7,8 @@ url:               #"https://lenpaul.github.io"
 twitter:           "paululele"
 github:            "lenpaul"
 
+google-ID: 'UA-112016064-1'
+
 menu:
 - {name: 'Curriculum', file: '/curriculum/'}
 - {name: 'Resources', file: '/resources/'}
